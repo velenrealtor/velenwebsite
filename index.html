@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELEN REALTY - Find Your Dream House</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="overlay" data-overlay></div>
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-top-list">
+          <li>
+            <a href="mailto:info@velenrealty.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>INFO@VELENREALESTATE.COM</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>BLOOMINGTON, MN</address>
+            </a>
+          </li>
+        </ul>
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+            <li>
+              <a href="https://www.facebook.com/people/Velen-Realtor/61550647636052/" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.zillow.com/profile/velen%20realtor#listings-and-sales" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/minnesota_realtor_velen/" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.zillow.com/profile/velen%20realtor#listings-and-sales" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <button class="header-top-btn">Add Listing</button>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="VELEN REALTY logo">
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="VELEN REALTY logo">
+            </a>
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+              <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+              <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+              <li><a href="#service" class="navbar-link" data-nav-link>Service</a></li>
+              <li><a href="#property" class="navbar-link" data-nav-link>Property</a></li>
+              <li><a href="#blog" class="navbar-link" data-nav-link>Blog</a></li>
+              <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-subtitle">
+            <ion-icon name="home"></ion-icon>
+            <span>Real Estate Agency</span>
+          </p>
+          <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+          <p class="hero-text">need to add ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          <button class="btn">Make An Enquiry</button>
+        </div>
+        <figure class="hero-banner">
+          <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+        </figure>
+      </div>
+    </section>
+
+    <!-- PROPERTY LIST -->
+    <section class="property" id="property">
+      <div class="container">
+        <p class="section-subtitle">Properties</p>
+        <h2 class="h2 section-title">Featured Listings</h2>
+        <ul class="property-list has-scrollbar" id="property-list">
+          <!-- Houses will be dynamically added here -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" alt="VELEN REALTY logo">
+          </a>
+          <p class="section-text">
+            Need to add
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2022 <a href="#">velen realtor</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Dynamic House Listing Script -->
+  <script>
+    const propertyList = document.getElementById("property-list");
+
+    const houses = [
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/5ddb29e8e66553d0a1655c504c09a728-cc_ft_768.webp",
+        title: "780 Ali Ln, Victoria, MN",
+        price: "$625,000",
+        location: "Victoria, MN",
+        bedrooms: 4,
+        bathrooms: 3,
+        area: "3111 sq ft",
+        link: "https://www.zillow.com/homedetails/780-Ali-Ln-Victoria-MN-55386/64509586_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/509743fecf9fc5bf01807d9b7dd5d271-cc_ft_576.webp",
+        title: "5060 Holly Ln N #102, Plymouth, MN",
+        price: "$250,000",
+        location: "Plymouth, MN",
+        bedrooms: 2,
+        bathrooms: 2,
+        area: "1250 sq ft",
+        link: "https://www.zillow.com/homedetails/5060-Holly-Ln-N-102-Plymouth-MN-55446/64499479_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/2a44db558013400f94f4f1db6ba04a84-cc_ft_576.webp",
+        title: "3477 Chestnut Ln, Eagan, MN",
+        price: "$450,000",
+        location: "Eagan, MN",
+        bedrooms: 3,
+        bathrooms: 2,
+        area: "1800 sq ft",
+        link: "https://www.zillow.com/homedetails/3477-Chestnut-Ln-Eagan-MN-55123/124176633_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/30c3b660315e6d3648c94160b5da6497-cc_ft_576.webp",
+        title: "5035 Holly Ln N #401, Plymouth, MN",
+        price: "$300,000",
+        location: "Plymouth, MN",
+        bedrooms: 2,
+        bathrooms: 2,
+        area: "1350 sq ft",
+        link: "https://www.zillow.com/homedetails/5035-Holly-Ln-N-401-Plymouth-MN-55446/61621703_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/3361c0fc90d02b4f5c4b98afb9fa289f-cc_ft_576.webp",
+        title: "4892 Bluff Heights Trail, Prior Lake, MN",
+        price: "$650,000",
+        location: "Prior Lake, MN",
+        bedrooms: 4,
+        bathrooms: 3,
+        area: "2800 sq ft",
+        link: "https://www.zillow.com/homedetails/4892-Bluff-Heights-Trl-SE-Prior-Lake-MN-55372/61126489_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/23e38814d480b096923f148c69304a86-cc_ft_576.webp",
+        title: "7052 S Park Dr, Savage, MN",
+        price: "$500,000",
+        location: "Savage, MN",
+        bedrooms: 3,
+        bathrooms: 2,
+        area: "2200 sq ft",
+        link: "https://www.zillow.com/homedetails/7052-S-Park-Dr-Savage-MN-55378/64895343_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/b6456a57898614d9adebb2ff8d7c4e15-cc_ft_576.webp",
+        title: "13263 Maryland Ave, Savage, MN",
+        price: "$375,000",
+        location: "Savage, MN",
+        bedrooms: 3,
+        bathrooms: 2,
+        area: "1600 sq ft",
+        link: "https://www.zillow.com/homedetails/13263-Maryland-Ave-Savage-MN-55378/2185311_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/2ea67d9a66dfaf9964a99d5dddc5c4b6-cc_ft_576.webp",
+        title: "14240 Parkview Ln, Prior Lake, MN",
+        price: "$720,000",
+        location: "Prior Lake, MN",
+        bedrooms: 5,
+        bathrooms: 4,
+        area: "3400 sq ft",
+        link: "https://www.zillow.com/homedetails/14240-Parkview-Ln-NW-Prior-Lake-MN-55372/68283540_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/13e9f64a0cce0aeed25fb58610575395-cc_ft_576.webp",
+        title: "1004 Traditions Trl, Chaska, MN",
+        price: "$600,000",
+        location: "Chaska, MN",
+        bedrooms: 4,
+        bathrooms: 3,
+        area: "2900 sq ft",
+        link: "https://www.zillow.com/homedetails/1004-Traditions-Trl-Chaska-MN-55318/64635252_zpid/"
+      },
+      {
+        imgSrc: "https://photos.zillowstatic.com/fp/ee6cacb5c577ba99596489d31ed81005-cc_ft_576.webp",
+        title: "5040 Holly Ln N #3, Plymouth, MN",
+        price: "$320,000",
+        location: "Plymouth, MN",
+        bedrooms: 2,
+        bathrooms: 2,
+        area: "1500 sq ft",
+        link: "https://www.zillow.com/homedetails/5040-Holly-Ln-N-UNIT-3-Plymouth-MN-55446/2102732518_zpid/"
+      }
+    ];
+
+    houses.forEach((house) => {
+      const houseCard = `
+        <li>
+          <div class="property-card">
+            <figure class="card-banner">
+              <a href="${house.link}" target="_blank">
+                <img src="${house.imgSrc}" alt="${house.title}" class="w-100">
+              </a>
+              <div class="card-badge green">For Sale</div>
+            </figure>
+            <div class="card-content">
+              <div class="card-price"><strong>${house.price}</strong></div>
+              <h3 class="h3 card-title"><a href="${house.link}" target="_blank">${house.title}</a></h3>
+              <ul class="card-list">
+                <li><strong>${house.bedrooms}</strong> Bedrooms</li>
+                <li><strong>${house.bathrooms}</strong> Bathrooms</li>
+                <li><strong>${house.area}</strong></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      `;
+      propertyList.innerHTML += houseCard;
+    });
+  </script>
+
+<section class="mortgage-calculator" id="calculator">
+  <div class="container">
+    <h2 class="h2 section-title">Mortgage Calculator</h2>
+    <form id="mortgage-form" class="calculator-form">
+      <div class="form-group">
+        <label for="home-price">Home Price ($):</label>
+        <input type="number" id="home-price" placeholder="Enter home price" required>
+      </div>
+      <div class="form-group">
+        <label for="down-payment">Down Payment ($):</label>
+        <input type="number" id="down-payment" placeholder="Enter down payment" required>
+      </div>
+      <div class="form-group">
+        <label for="loan-term">Loan Term (years):</label>
+        <input type="number" id="loan-term" placeholder="Enter loan term" required>
+      </div>
+      <div class="form-group">
+        <label for="interest-rate">Interest Rate (%):</label>
+        <input type="number" id="interest-rate" placeholder="Enter annual interest rate" step="0.01" required>
+      </div>
+      <button type="button" id="calculate-btn" class="btn">Calculate</button>
+    </form>
+    <div id="mortgage-result" class="result">
+      <h3>Your Monthly Payment:</h3>
+      <p id="monthly-payment">$0.00</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Add this to the footer section -->
+<div class="footer-contact">
+  <a href="https://wa.me/16125783536?text=Hello!%20I'm%20interested%20in%20your%20real%20estate%20services."
+   class="whatsapp-btn" target="_blank">
+  <ion-icon name="logo-whatsapp"></ion-icon>
+  <span>Chat with us</span>
+</a>
+
+</div>
+
+<!-- Add this CSS to your style.css -->
+<style>
+  .whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .whatsapp-btn:hover {
+    background-color: #1ebc5a;
+  }
+
+  .whatsapp-btn ion-icon {
+    font-size: 20px;
+  }
+</style>
+
+
+
+
+</html>
